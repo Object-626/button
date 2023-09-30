@@ -1,24 +1,25 @@
 # Rezon UI
-**рекоменация**: создать виртуальное окружение для питона:
+
+## Windows:
+### First run:
+just run it:
 ```powershell
-python -m venv venv
+.\first_run.bat
 ```
 
-установить зависимости для питона
-```powershell
-pip install -r req.txt
-python -m flask --debug --app upasi run
-```
-
-
-
-и тогда запуск фласк сервера на винде доступно через 
+### send and more run:
 ```powershell
 .\run.bat
 ```
-иначе:
-установить зависимости для питона
-```powershell
-pip install -r req.txt
-python -m flask --debug --app upasi run
+
+## Linux:
+### 1. Install requirements
+```bash
+pip install - requirements.txt
+```
+
+### Run
+Now u can run it:
+```bash
+cd knopki && python manage.py runserver
 ```
